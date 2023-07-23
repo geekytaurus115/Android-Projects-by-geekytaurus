@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.StyleAndTheme" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="MyCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/color_dark</item>
+        <item name="colorPrimary">@color/color_normal</item>
+        <item name="colorAccent">@color/color_accent</item>
+    </style>
+
+    <style name="MyTextBold">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/purple_200</item>
+    </style>
+
+    <style name="MyButtonBold">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/color_normal</item>
+    </style>
+
+</resources>
