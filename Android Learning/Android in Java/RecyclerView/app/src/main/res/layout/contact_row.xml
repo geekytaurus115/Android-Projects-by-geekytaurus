@@ -5,40 +5,46 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardUseCompatPadding="true"
         app:cardCornerRadius="7dp">
 
-        <ImageView
-            android:id="@+id/imgContact"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:contentDescription="Contact Image"
-            android:src="@drawable/ic_launcher_background"
-            android:background="#C6F492"/>
-        
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginLeft="11dp">
-            <TextView
-                android:id="@+id/txtName"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgContact"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_people_24"/>
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="22sp"
-                android:textStyle="bold"
-                android:text="Contact"/>
-            <TextView
-                android:id="@+id/txtNumber"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:text="Contact Number"
-                android:textStyle="bold"/>
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/txtContact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:text="Contact"/>
+                <TextView
+                    android:id="@+id/txtContactNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Contact Number"/>
+            </LinearLayout>
 
         </LinearLayout>
+
 
     </androidx.cardview.widget.CardView>
 
