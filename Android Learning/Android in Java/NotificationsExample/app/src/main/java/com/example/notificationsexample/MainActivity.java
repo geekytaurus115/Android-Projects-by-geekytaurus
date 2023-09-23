@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
                     .setSmallIcon(R.drawable.icon)
                     .setContentText("New Message")
                     .setSubText("New Message of Raman")
+                    .setChannelId(CHANNEL_ID)
                     .build();
         } else {
             notification = new Notification.Builder(this)
