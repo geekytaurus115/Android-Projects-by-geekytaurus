@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnFragA"
+            android:layout_weight="1"
+            android:text="Frag A"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnFragB"
+            android:layout_weight="1"
+            android:text="Frag B"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnFragC"
+            android:layout_weight="1"
+            android:text="Frag C"/>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+
+<!--    <fragment-->
+<!--        android:id="@+id/Frag1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:name="com.example.a21_fragmentexample.AFragment"-->
+<!--        android:layout_weight="1"/>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/Frag2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:name="com.example.a21_fragmentexample.BFragment"-->
+<!--        android:layout_weight="1"/>-->
+
+
+</LinearLayout>
